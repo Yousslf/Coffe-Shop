@@ -1,5 +1,4 @@
 import React from "react";
-// import coffeeImg from "./coffe.png"; // Adjust path if needed
 import coffeeImg from "./coffe.png";
 
 const LandPage = () => {
@@ -22,7 +21,7 @@ const LandPage = () => {
 
   const handleContactSubmit = (event) => {
     event.preventDefault();
-    // For now, just prevent default. Hook up to backend or email service later.
+
   };
 
   const handleNavClick = (targetId) => {
